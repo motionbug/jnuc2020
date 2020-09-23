@@ -5,7 +5,7 @@
 
 Welcome and we hope that you trust Ross and wear your mask!
 
-![talktitle](https://github.com/motionbug/jnuc2020/blob/master/images/trust-ross.png "Talk Title")
+![talktitle](https://github.com/motionbug/jnuc2020/blob/master/images/title.png "Talk Title")
 
 ### Resources
 
