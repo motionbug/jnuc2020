@@ -9,9 +9,9 @@
 
 ### Scripts
 
-- [Script that's not a Quickadd](https://github.com/motionbug/jnuc2020/scripts/install_jamfbinary_ss.sh)
-- [Whats the MDM I say?](https://github.com/motionbug/jnuc2020/scripts/detect_mdm_profile.sh)
-- [Create timed wifi profile for deployment with Jamf](https://github.com/motionbug/jnuc2020/scripts/wifi_profile_preBigSur.sh)
+- [Script that's not a Quickadd](https://github.com/motionbug/jnuc2020/blob/master/scripts/install_jamfbinary_ss.sh)
+- [Whats the MDM I say?](https://github.com/motionbug/jnuc2020/blob/master/scripts/detect_mdm_profile.sh)
+- [Create timed wifi profile for deployment with Jamf](https://github.com/motionbug/jnuc2020/blob/master/scripts/wifi_profile_preBigSur.sh)
 
 ### Great Presentations
 
