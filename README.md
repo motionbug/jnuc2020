@@ -7,6 +7,10 @@
 
 ## Resources
 
+## Download Keynote
+
+- [Keynote Download](https://github.com/motionbug/jnuc2020/blob/master/keynote/)
+
 ### Scripts
 
 - [Script that's not a Quickadd](https://github.com/motionbug/jnuc2020/blob/master/scripts/install_jamfbinary_ss.sh)
