@@ -32,35 +32,14 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 #
 # This script is designed for Jamf Pro and does:
-# 	- mimic the quickadd pkg when the pkg can't be used
+# 	- Checks for MDM Profiles Name
 #
 # Written by: 	Rob Potvin 			| Consulting Engineer @ Jamf
 #				Mischa van der Bent	| Consulting Engineer @ Jamf
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+mdmname="Jamf Software"
 
-inviteID=""
-jamfproURL=""
+whatmdm=$(/usr/sbin/system_profiler SPConfigurationProfileDataType | /usr/bin/grep "${mdmname}" | awk -F ' ' 'NR==1 {print $2}')
 
-jamfinstall(){
-	/usr/bin/curl -ks ${jamfproURL}/bin/jamf -o /tmp/jamf
-	/bin/mkdir -p /usr/local/jamf/bin /usr/local/bin
-	/bin/mv /tmp/jamf /usr/local/jamf/bin
-	/bin/chmod +x /usr/local/jamf/bin/jamf
-	/bin/ln -s /usr/local/jamf/bin/jamf /usr/local/bin
-	/usr/local/jamf/bin/jamf createConf -url ${jamfproURL} -verifySSLCert always
-	/usr/local/jamf/bin/jamf enroll -invitation ${inviteID}
-}
-
-jss(){
-	curl -ks ${jamfproURL}/bin/SelfService.tar.gz -o /tmp/SelfService.tar.gz
-	/bin/rm -rf "/Applications/Self Service.app"
-	sleep 1
-	tar -xzf /tmp/SelfService.tar.gz -C /Applications
-	defaults write /Library/Preferences/com.jamfsoftware.jamf.plist self_service_app_path "/Applications/Self Service.app"
-}
-
-jamfinstall
-jss
-
-/usr/local/jamf/bin/jamf policy
+echo $whatmdm

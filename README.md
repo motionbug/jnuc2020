@@ -9,8 +9,7 @@
 
 ### Scripts
 
-- [Download and install the jamf binary](https://github.com/motionbug/jnuc2020/scripts/install_jamfbinary.sh)
-- [Download and install Jamf Self Service](https://github.com/motionbug/jnuc2020/scripts/install_ss.sh)
+- [Script that's not a Quickadd](https://github.com/motionbug/jnuc2020/scripts/install_jamfbinary_ss.sh)
 - [Create timed wifi profile for deployment with Jamf](https://github.com/motionbug/jnuc2020/scripts/wifi_profile_preBigSur.sh)
 
 ### Great Presentations
