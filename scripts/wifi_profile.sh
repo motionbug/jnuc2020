@@ -33,14 +33,12 @@
 #
 # This script is designed for Jamf Pro and does:
 # 	- Creating temprory Wifi connection during enrollment
+#	- The Profile command will change within Big Sure
 #
-# Written by: 	Rob Potvin 			| Consulting Engineer @ Jamf
-#				Mischa van der Bent	| Consulting Engineer @ Jamf
+# Written by: 	Rob Potvin 		| Consulting Engineer @ Jamf
+#		Mischa van der Bent	| Consulting Engineer @ Jamf
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-
-
 
 # Hardcoded Wireless Variables (Best to use Parameter 4 and Parameter 5 within Jamf Pro)
 wifissid=""
