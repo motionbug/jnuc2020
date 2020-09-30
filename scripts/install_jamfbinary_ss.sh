@@ -34,8 +34,8 @@
 # This script is designed for Jamf Pro and does:
 # 	- mimic the quickadd pkg when the pkg can't be used
 #
-# Written by: 	Rob Potvin 			| Consulting Engineer @ Jamf
-#				Mischa van der Bent	| Consulting Engineer @ Jamf
+# Written by: 	Rob Potvin 		| Consulting Engineer @ Jamf
+#		Mischa van der Bent	| Consulting Engineer @ Jamf
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
