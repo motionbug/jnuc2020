@@ -34,8 +34,8 @@
 # This script is designed for Jamf Pro and does:
 # 	- Checks for MDM Profiles Name
 #
-# Written by: 	Rob Potvin 			      | Consulting Engineer @ Jamf
-#				        Mischa van der Bent	  | Consulting Engineer @ Jamf
+# Written by: 	Rob Potvin 		| Consulting Engineer @ Jamf
+#		Mischa van der Bent	| Consulting Engineer @ Jamf
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 mdmname="Jamf Software"
