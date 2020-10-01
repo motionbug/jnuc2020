@@ -1,9 +1,9 @@
-# Keynote Download 
+# Keynote Download
 
 **60MB Download**
 
-**NOTE:** Required font - [SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/)
+**NOTE:** Required Font - [Download SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/)
 
-Thanks 
+Thanks
 
 **Rob and Mischa**
