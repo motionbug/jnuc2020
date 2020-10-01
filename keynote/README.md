@@ -1,10 +1,8 @@
-# 404 file not found
+# Keynote Download 
 
-Since our talk at JNUC 2020 has not started just yet, there is nothing to post!
+**60MB Download**
 
-We will post something here
-
-Coming soon
+If you get funny odd ? marks then you need to download and install [SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/)
 
 Thanks 
 
